@@ -24,7 +24,8 @@ def summarize(ipk):
     import io, tarfile
     with gzip.open(ipk, "rb") as fh:
         outer = tarfile.open(fileobj=io.BytesIO(fh.read()), mode="r:")
-        control = outer.extractfile("./control.tar.gz").read()
+        ctrl_name = next(m.name for m in outer.getmembers() if m.name.endswith("control.tar.gz"))
+        control = outer.extractfile(ctrl_name).read()
     inner = tarfile.open(fileobj=io.BytesIO(control), mode="r:gz")
     meta = {}
     for member in inner.getmembers():

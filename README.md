@@ -24,7 +24,7 @@ wget -O /etc/opkg/keys/ddf1cd5d87a4b793 \
   https://raw.githubusercontent.com/smthdagg/wificalling-location-gateway-feed/main/wloc.pub
 
 # 2. Add the source and install
-echo "src/gz wloc https://github.com/smthdagg/wificalling-location-gateway/releases/download/v1.0.0" \
+echo "src/gz wloc https://smthdagg.github.io/wificalling-location-gateway-feed" \
   >> /etc/opkg/customfeeds.conf
 opkg update
 opkg install wificalling-location-gateway

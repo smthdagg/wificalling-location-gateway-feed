@@ -9,9 +9,9 @@ recommended) or a plain **manual download** of the `.ipk`/`.apk`.
 
 | Platform | Package |
 |---|---|
-| Redmi AX6S / mt7622 / AArch64 (cortex-a53) | `wificalling-location-gateway_1.0.5-1_aarch64_cortex-a53.ipk` |
-| OpenWrt 24.10 / iStoreOS 24.10 / x86-64 | `wificalling-location-gateway_1.0.5-r1_x86_64.ipk` |
-| OpenWrt 25.x / x86-64 | `wificalling-location-gateway-1.0.5-r1.apk` |
+| Redmi AX6S / mt7622 / AArch64 (cortex-a53) | `wificalling-location-gateway_1.0.6-1_aarch64_cortex-a53.ipk` |
+| OpenWrt 24.10 / iStoreOS 24.10 / x86-64 | `wificalling-location-gateway_1.0.6-r1_x86_64.ipk` |
+| OpenWrt 25.x / x86-64 | `wificalling-location-gateway-1.0.6-r1.apk` |
 
 ## Option A — package source (recommended)
 
@@ -19,8 +19,8 @@ Add the release as a custom source, then install normally:
 
 ```sh
 # OpenWrt 24.10 / iStoreOS (opkg)
-# 1. Import the repository signing key (one-time; rotated for 1.0.5)
-wget -O /etc/opkg/keys/9a692b84cd767bdb \
+# 1. Import the repository signing key (one-time; rotated for 1.0.6)
+wget -O /etc/opkg/keys/399fee4ca7d21a60 \
   https://raw.githubusercontent.com/smthdagg/wificalling-location-gateway-feed/main/wloc.pub
 
 # 2. Add the source and install
@@ -40,14 +40,14 @@ opkg install wificalling-location-gateway
 ## Option B — manual download
 
 1. Download the asset for your platform from the
-   [release page](https://github.com/smthdagg/wificalling-location-gateway/releases/tag/v1.0.5).
+   [release page](https://github.com/smthdagg/wificalling-location-gateway/releases/tag/v1.0.6).
 2. Verify it against `SHA256SUMS` in the same release.
 3. Install:
 
 ```sh
-opkg install ./wificalling-location-gateway_1.0.5-1_aarch64_cortex-a53.ipk   # AX6S
-opkg install ./wificalling-location-gateway_1.0.5-r1_x86_64.ipk              # OpenWrt 24.10 / iStoreOS x86-64
-apk add ./wificalling-location-gateway-1.0.5-r1.apk                          # OpenWrt 25.x x86-64
+opkg install ./wificalling-location-gateway_1.0.6-1_aarch64_cortex-a53.ipk   # AX6S
+opkg install ./wificalling-location-gateway_1.0.6-r1_x86_64.ipk              # OpenWrt 24.10 / iStoreOS x86-64
+apk add ./wificalling-location-gateway-1.0.6-r1.apk                          # OpenWrt 25.x x86-64
 ```
 
 ## Notes

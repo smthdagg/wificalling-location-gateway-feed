@@ -19,8 +19,8 @@ Add the release as a custom source, then install normally:
 
 ```sh
 # OpenWrt 24.10 / iStoreOS (opkg)
-# 1. Import the repository signing key (one-time; rotated for 1.0.1)
-wget -O /etc/opkg/keys/d0f48bd7afd1fa12 \
+# 1. Import the repository signing key (one-time; rotated for 1.0.2)
+wget -O /etc/opkg/keys/7645a0b4ea720026 \
   https://raw.githubusercontent.com/smthdagg/wificalling-location-gateway-feed/main/wloc.pub
 
 # 2. Add the source and install

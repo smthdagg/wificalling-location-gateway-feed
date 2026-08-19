@@ -1,20 +1,33 @@
 Package: wificalling-location-gateway
-Version: 1.2.0-1
+Version: 1.2.1-r1
 Depends: luci-base, rpcd-mod-rpcsys, sing-box, nftables, firewall4, kmod-nft-tproxy, kmod-nft-socket, ip-full
 Provides: luci-app-wificalling-location-gateway, luci-app-wificalling-gateway, wloc-service
 Replaces: luci-app-wificalling-location-gateway, luci-app-wificalling-gateway, wloc-service
 Architecture: aarch64_cortex-a53
-Filename: wificalling-location-gateway_1.2.0-1_aarch64_cortex-a53.ipk
-Size: 1446437
-SHA256sum: 1e5d6691e988def39b1c7b6d12ab46de179044790929a9b46d59f9f897903947
-Description: Complete Wi-Fi Calling Gateway 1.7 and WLOC service with unified LuCI.
+Filename: wificalling-location-gateway_1.2.1-r1_aarch64_cortex-a53.ipk
+Size: 1422322
+SHA256sum: 2cfdc83b5a8b860f234c787b8f312d17ee2135a4fc5ef82debb8597a0bf7f50c
+Description: Complete Wi-Fi Calling Gateway, WLOC service, control client, and unified LuCI UI.
 
 Package: wificalling-location-gateway
-Version: 1.2.0-r1
+Version: 1.2.1-r1
 Depends: libc
 Provides: wloc-service, luci-app-wificalling-location-gateway, luci-app-wificalling-gateway
+Replaces: luci-app-wificalling-location-gateway, luci-app-wificalling-gateway, wloc-service
 Architecture: x86_64
-Filename: wificalling-location-gateway_1.2.0-r1_x86_64.ipk
-Size: 1519380
-SHA256sum: 4d3855c57ba835a35d3407cad6747db1c83ab78090af89524e3b92f0669930fc
-Description: Complete Wi-Fi Calling Gateway 1.7, WLOC service, control client, and unified LuCI UI.
+Filename: wificalling-location-gateway_1.2.1-r1_x86_64.ipk
+Size: 1502586
+SHA256sum: d4b421d42284552be634e6be1f3f66302712c6123d6e31ff989ff370351026a5
+Description: Complete Wi-Fi Calling Gateway, WLOC service, control client, and unified LuCI UI.
+
+Package: wificalling-location-gateway
+Version: 1.2.1-r1
+Depends: libc
+Provides: wloc-service, luci-app-wificalling-location-gateway, luci-app-wificalling-gateway
+Replaces: luci-app-wificalling-location-gateway, luci-app-wificalling-gateway, wloc-service
+Architecture: x86_64
+Filename: wificalling-location-gateway-1.2.1-r1.apk
+Size: 1500271
+SHA256sum: f5b995c357435e9caf6f6c59d83536fc5eb6c2b0198dae44a6a3c5f8b1edd449
+Description: Complete Wi-Fi Calling Gateway, WLOC service, control client, and unified LuCI UI.
+

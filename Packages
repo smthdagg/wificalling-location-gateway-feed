@@ -5,8 +5,8 @@ Provides: luci-app-wificalling-location-gateway, luci-app-wificalling-gateway, w
 Replaces: luci-app-wificalling-location-gateway, luci-app-wificalling-gateway, wloc-service
 Architecture: aarch64_cortex-a53
 Filename: wificalling-location-gateway_1.2.1-r1_aarch64_cortex-a53.ipk
-Size: 1435417
-SHA256sum: a473bf2e173cd9ec713515ed592666c0ea5aba0fbfd40e0955b340b2c88c35aa
+Size: 1435409
+SHA256sum: e4a9d297f3b9d2f5996bb69c3bb6af91ebe490e47253ac22b038b3894433c13c
 Description: Complete Wi-Fi Calling Gateway, WLOC service, control client, and unified LuCI UI.
 
 Package: wificalling-location-gateway

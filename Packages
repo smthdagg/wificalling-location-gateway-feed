@@ -1,41 +1,41 @@
 Package: wificalling-location-gateway-lite
-Version: 1.3.0-r9
+Version: 1.3.0-r10
 Depends: luci-base, rpcd-mod-rpcsys, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun, nftables, firewall4, kmod-nft-tproxy, kmod-nft-socket, ip-full
 Provides: wificalling-location-gateway, sing-box, luci-app-wificalling-location-gateway, luci-app-wificalling-gateway, wloc-service
 Replaces: wificalling-location-gateway, sing-box, luci-app-wificalling-location-gateway, luci-app-wificalling-gateway, wloc-service
 Architecture: aarch64_cortex-a53
-Filename: wificalling-location-gateway-lite_1.3.0-r9_aarch64_cortex-a53.ipk
-Size: 11931229
-SHA256sum: 750775c703b52462dff844ce96f08c00fc6b2ab7fe0efb70e7dd4a4f65e1c6e7
+Filename: wificalling-location-gateway-lite_1.3.0-r10_aarch64_cortex-a53.ipk
+Size: 11927693
+SHA256sum: ba2e8f40929b8020c921519aa05a8d0f25eb9d9e3bfd588f19235d2a0c57ca19
 Description: Complete Wi-Fi Calling Gateway and WLOC service with bundled sing-box Lite.
 
 Package: wificalling-location-gateway-lite
-Version: 1.3.0-r9
+Version: 1.3.0-r10
 Depends: luci-base (>=0), rpcd-mod-rpcsys (>=0), ca-bundle (>=0), kmod-inet-diag (>=0), kmod-netlink-diag (>=0), kmod-tun (>=0), nftables (>=0), firewall4 (>=0), kmod-nft-tproxy (>=0), kmod-nft-socket (>=0), ip-full (>=0), libc
 Provides: wificalling-location-gateway, sing-box, wloc-service, luci-app-wificalling-location-gateway, luci-app-wificalling-gateway
 Architecture: x86_64
-Filename: wificalling-location-gateway-lite_1.3.0-r9_x86_64.ipk
-Size: 17850805
-SHA256sum: 0e7d32c4323e9135e93e5067396f157b86e1f3b1cd7869157992f4b4e65568b5
+Filename: wificalling-location-gateway-lite_1.3.0-r10_x86_64.ipk
+Size: 17851871
+SHA256sum: 103693f71767ae66b5d6c9690b715d205bd21b4eef940cd76d94fad070dd6b67
 Description: Complete Wi-Fi Calling Gateway and WLOC with the bundled low-memory sing-box runtime.
 
 Package: wificalling-location-gateway
-Version: 1.3.0-r9
+Version: 1.3.0-r10
 Depends: luci-base, rpcd-mod-rpcsys, sing-box, nftables, firewall4, kmod-nft-tproxy, kmod-nft-socket, ip-full
 Provides: luci-app-wificalling-location-gateway, luci-app-wificalling-gateway, wloc-service
 Replaces: luci-app-wificalling-location-gateway, luci-app-wificalling-gateway, wloc-service
 Architecture: aarch64_cortex-a53
-Filename: wificalling-location-gateway_1.3.0-r9_aarch64_cortex-a53.ipk
-Size: 1467005
-SHA256sum: f9deca6f0ef1f5543ba67456e93bd35dc2f7bcad02a962a9286389638a4db178
+Filename: wificalling-location-gateway_1.3.0-r10_aarch64_cortex-a53.ipk
+Size: 1465614
+SHA256sum: 5dac4ecbeda3933e32a176fc239b5fd31c4f996aa049b0b1c15dfbfb653f8dc7
 Description: Complete Wi-Fi Calling Gateway and WLOC service using the system sing-box.
 
 Package: wificalling-location-gateway
-Version: 1.3.0-r9
+Version: 1.3.0-r10
 Depends: luci-base (>=0), rpcd-mod-rpcsys (>=0), sing-box (>=0), nftables (>=0), firewall4 (>=0), kmod-nft-tproxy (>=0), kmod-nft-socket (>=0), ip-full (>=0), libc
 Provides: wloc-service, luci-app-wificalling-location-gateway, luci-app-wificalling-gateway
 Architecture: x86_64
-Filename: wificalling-location-gateway_1.3.0-r9_x86_64.ipk
-Size: 1525649
-SHA256sum: 4ca6d6067ba921047d9a8883c63e5a1f022906f0223965d123998ddaf329e2fd
+Filename: wificalling-location-gateway_1.3.0-r10_x86_64.ipk
+Size: 1526207
+SHA256sum: fc0a4b464dc37845dd8d0c0cf7a5f97d872892750106db02eac796d631b6120d
 Description: Complete Wi-Fi Calling Gateway, WLOC service, control client, and unified LuCI UI.

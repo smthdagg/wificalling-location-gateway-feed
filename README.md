@@ -1,5 +1,8 @@
 # Standalone WLOC Gateway — OpenWrt feed
 
+Current release: **v1.3.0-r13** (the table below tracks the current
+release filenames; older versions remain on the GitHub releases page).
+
 Prebuilt package source for the standalone
 [`wificalling-location-gateway`](https://github.com/smthdagg/wificalling-location-gateway)
 product. V2 unifies the WLOC service lifecycle and management UI in one
@@ -12,9 +15,9 @@ Each target ships both **Standard** (reuses the firmware/feed `sing-box`) and
 
 | Platform | Standard | Lite |
 |---|---|---|
-| Redmi AX6S / MT7622 / AArch64 (cortex-a53) | `wificalling-location-gateway_1.3.0-r1_aarch64_cortex-a53.ipk` | `wificalling-location-gateway-lite_1.3.0-r1_aarch64_cortex-a53.ipk` |
-| OpenWrt 24.10 / iStoreOS 24.10 / x86-64 | `wificalling-location-gateway_1.3.0-r1_x86_64.ipk` | `wificalling-location-gateway-lite_1.3.0-r1_x86_64.ipk` |
-| OpenWrt 25.x / x86-64 (APK) | `wificalling-location-gateway-1.3.0-r1.apk` | `wificalling-location-gateway-lite-1.3.0-r1.apk` |
+| Redmi AX6S / MT7622 / AArch64 (cortex-a53) | `wificalling-location-gateway_1.3.0-r13_aarch64_cortex-a53.ipk` | `wificalling-location-gateway-lite_1.3.0-r13_aarch64_cortex-a53.ipk` |
+| OpenWrt 24.10 / iStoreOS 24.10 / x86-64 | `wificalling-location-gateway_1.3.0-r13_x86_64.ipk` | `wificalling-location-gateway-lite_1.3.0-r13_x86_64.ipk` |
+| OpenWrt 25.x / x86-64 (APK) | `wificalling-location-gateway-1.3.0-r13.apk` | `wificalling-location-gateway-lite-1.3.0-r13.apk` |
 
 ## Install from the package source
 
@@ -33,7 +36,7 @@ opkg install wificalling-location-gateway          # Standard
 ```
 
 OpenWrt 25.x uses the APK package format. For that platform, download
-`wificalling-location-gateway-1.3.0-r1.apk` (or the `-lite-` variant), verify it
+`wificalling-location-gateway-1.3.0-r13.apk` (or the `-lite-` variant), verify it
 against `SHA256SUMS`, and install it with `apk add --allow-untrusted` (the apk
 source is not separately signed; the opkg source above is signed).
 

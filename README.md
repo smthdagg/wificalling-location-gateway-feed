@@ -27,8 +27,8 @@ architecture-matching package:
 
 ```sh
 wget -O /etc/opkg/keys/f7050198aa77cf15 \
-  https://raw.githubusercontent.com/smthdagg/wificalling-location-gateway-feed/main/wloc.pub
-echo "src/gz wloc https://smthdagg.github.io/wificalling-location-gateway-feed" \
+  https://raw.githubusercontent.com/smthdagg/Smthdagg-Repo-feeds/main/wloc.pub
+echo "src/gz wloc https://smthdagg.github.io/Smthdagg-Repo-feeds/wificalling-location-gateway" \
   >> /etc/opkg/customfeeds.conf
 opkg update
 opkg install wificalling-location-gateway          # Standard

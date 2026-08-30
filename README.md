@@ -16,7 +16,7 @@ directory is referenced in `/etc/opkg/customfeeds.conf`.
 |---|---|---|
 | `wificalling-location-gateway/` | smthdagg/wificalling-location-gateway | publishing (Standard + Lite, aarch64 + x86_64) |
 | `luci-app-wificalling-gateway/` | smthdagg/luci-app-wificalling-gateway | reserved |
-| `wificalling-location-gateway-beta/` | smthdagg/wificalling-location-gateway-beta | reserved (beta packages) |
+| `wificalling-location-gateway-beta/` | *private repository* | withheld — will be published when the project goes public again |
 | `ALL-VideoDownload-Plus/` | smthdagg/ALL-VideoDownload-Plus | reserved |
 | `SalesCRM/` | smthdagg/SalesCRM | reserved |
 | `Investment-Ann-List/` | smthdagg/Investment-Ann-List | reserved |

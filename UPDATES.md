@@ -8,6 +8,7 @@ integrity) by `scripts/feed-verify.sh` or an equivalent manual check.
 
 | Date (UTC) | Project | Version | Action | Verified |
 |---|---|---|---|---|
+| 2026-08-30 | wificalling-location-gateway-beta | — | repository went private; its (empty, reserved) feed directory withheld from the public feed | ✅ feed-verify |
 | 2026-08-30 | (repository) | — | renamed to `Smthdagg-Repo-feeds`; restructured to per-project directories (`wificalling-location-gateway/` holds the packages, 8 project dirs reserved); added `scripts/feed-verify.sh`; router feed URL migrated to the `wificalling-location-gateway/` subdirectory | ✅ feed-verify |
 | 2026-08-29 | wificalling-location-gateway | 1.3.0-r13 | realistic memory gate (computed need + self-heal retry); standard + lite, x86_64 + aarch64 | ✅ |
 | 2026-08-29 | wificalling-location-gateway | 1.3.0-r12 | auto-save applied manual locations; standard + lite, x86_64 + aarch64 | ✅ |
